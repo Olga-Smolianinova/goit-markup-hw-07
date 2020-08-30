@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    /> -->
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
+    <!-- <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" /> -->
   </head>
   <body>
     <!-- Header container -->
@@ -281,7 +281,14 @@
 
         <div class="subscription">
           <p class="footer-title">Подпишитесь на рассылку</p>
-          <button class="button">
+
+          <input
+            class="subscription-input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+          />
+          <button class="button footer-btn" type="submit">
             Подписаться
             <svg class="sub-icon" width="24" height="24">
               <use href="./images/sprite.svg#send"></use>
